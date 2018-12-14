@@ -18,6 +18,8 @@ import { LoginComponent } from './login';
 import { RegisterComponent } from './register';
 import { GenerateTokenService } from './_services/generate-token.service';
 
+declare var require: any;
+
 @NgModule({
     imports: [
         BrowserModule,
