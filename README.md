@@ -9,7 +9,7 @@ Token-based authentication is predominantly used on the web because it allows us
 When we use a Token-based authentication the main idea is to guarantee that the user logged is his own, and thus maintenance to access of the contents, and manage the access levels that it may have.
 
 
-Cookie-Based Authentication
+#Cookie-Based Authentication
 
 Cookie-based authentication has been the default, tried-and-true method for handling user authentication for a long time.
 
@@ -25,7 +25,7 @@ Cookie-based authentication is stateful. This means that an authentication recor
 
 - Once a user logs out of the app, the session is destroyed both client-side and server-side.
 
-Token-Based Authentication
+#Token-Based Authentication
 
 Token-based authentication has gained prevalence over the last few years due to the rise of single page applications, web APIs, and the Internet of Things (IoT). When we talk about authentication with tokens, we generally talk about authentication with JSON Web Tokens (JWTs). While there are different ways to implement tokens, JWTs have become the de-facto standard. With this context in mind, the rest of the article will use tokens and JWTs interchangeably.
 
@@ -50,7 +50,8 @@ JSON Web Tokens are an open, industry standard RFC 7519 method for representing 
 
 There are multiple ways to allow a service to be used securely. JSON web tokens is one of them, although there are limitations to the security that JSON web tokens provide. JSON Web tokens(JWT) is a standard for representing claims securely between two parties. It is quite secure because the JWT can be signed using a secret or public/private key.
 
-Prerequisites
+#Prerequisites
+
 Install Node.js® and npm
 
 node -v
