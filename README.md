@@ -50,6 +50,23 @@ JSON Web Tokens are an open, industry standard RFC 7519 method for representing 
 
 There are multiple ways to allow a service to be used securely. JSON web tokens is one of them, although there are limitations to the security that JSON web tokens provide. JSON Web tokens(JWT) is a standard for representing claims securely between two parties. It is quite secure because the JWT can be signed using a secret or public/private key.
 
+Prerequisites
+Install Node.js® and npm
+
+node -v
+
+npm -v
+
+Install Angular cli
+
+npm install -g @angular/cli
+
+Install node packages
+
+cd /go/to/app/directory having package.json
+
+npm install
+
 
 I will use in node.js using jsonwebtoken (https://github.com/auth0/node-jsonwebtoken) module, for the installation just use the command:
 
